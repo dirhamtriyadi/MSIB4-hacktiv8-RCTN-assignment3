@@ -4,8 +4,16 @@ import './Skills.css'
 const Skills = () => {
   return (
     <div className='container'>
-      <h1>Skills</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos doloremque totam neque deserunt laudantium sapiente magni porro ipsum adipisci odio repellendus reiciendis natus quibusdam eveniet omnis sit recusandae, cum eius.</p>
+      <h1>SKILLS</h1>
+      <p>PROGRAMMING LANGUAGES & TOOLS</p>
+      <ul>
+        <li>Html5</li>
+        <li>Javascripts</li>
+        <li>Nodejs</li>
+        <li>React</li>
+        <li>Css</li>
+        <li>Php</li>
+      </ul>
     </div>
   )
 }

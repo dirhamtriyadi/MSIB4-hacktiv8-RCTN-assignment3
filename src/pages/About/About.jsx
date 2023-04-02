@@ -1,14 +1,28 @@
 import React from 'react'
 import './About.css'
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
+    
     <div className='container'>
-      <h1>About</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ex praesentium nostrum aspernatur! Culpa consequuntur dolor amet consequatur sit esse itaque, impedit ea odio doloremque non! Sed nihil provident, amet optio, necessitatibus tempore in quod est quis et rerum culpa pariatur consequuntur unde qui quisquam commodi veritatis ratione obcaecati ad deleniti facilis ab, porro a. Nobis eos sit natus numquam libero, voluptates repellendus porro ab magnam placeat architecto ipsam culpa necessitatibus enim tempore rem aspernatur minima quis alias eum omnis blanditiis nostrum? Deleniti placeat ratione fugiat nostrum facilis impedit ullam odit, maiores quibusdam ea magnam eum, eveniet suscipit voluptates totam animi repellendus mollitia provident minus dicta dolorum quos numquam? Ad vitae quod iure dolorum laborum sint debitis alias sapiente maiores placeat dolor blanditiis quibusdam aliquid repellendus iste fugiat ex modi, soluta labore! Pariatur odit veritatis assumenda, odio laudantium unde eligendi ab nihil. Vero, nam? Perspiciatis neque inventore aliquam adipisci cupiditate.</p>
-      <FontAwesomeIcon size='lg' icon={faGithub} />
+      <h1>ABOUT</h1>
+      <p>+62 851-5502-1043 | dirhamtriyadi@gmail.com</p>
+      <p>Hi, I'm Dirham Triyadi, I'm a Frontend Developer. I have experience in the JavaScript programming language for 2 years. I have a strong fundamentals in JavaScript and Typescript. Plus, I'm also familiar with several frameworks such as React JS, React Native and Express JS.</p>
+      <div className='buled-container'>
+        <div className='rounded-circle bg-black buled'>
+          <Link to={'https://www.linkedin.com/in/dirham-triyadi-58a608201'}>
+            <FontAwesomeIcon fontSize={'30px'} color='white' icon={faLinkedin} />
+          </Link>
+        </div>
+        <div className='rounded-circle bg-black buled'>
+          <Link to={'https://github.com/dirhamtriyadi'}>
+            <FontAwesomeIcon fontSize={'30px'} color='white' icon={faGithub} />
+          </Link>
+        </div>
+      </div>
     </div>
   )
 }

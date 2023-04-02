@@ -13,6 +13,7 @@ const Navbar = () => {
                 <Link className='mb-2' to={'/'}>Home</Link>
                 <Link className='mb-2' to={'/about'}>About</Link>
                 <Link className='mb-2' to={'/experience'}>Experience</Link>
+                <Link className='mb-2' to={'/education'}>Education</Link>
                 <Link className='mb-2' to={'/skills'}>Skills</Link>
                 <Link className='mb-2' to={'/interest'}>Interest</Link>
                 <Link className='mb-2' to={'/awards'}>Awards</Link>

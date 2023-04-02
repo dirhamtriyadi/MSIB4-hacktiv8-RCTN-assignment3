@@ -4,8 +4,15 @@ import './Awards.css'
 const Awards = () => {
   return (
     <div className='container'>
-      <h1>Awards</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem doloremque tenetur voluptates cupiditate nam eaque consequuntur quisquam hic deleniti error! Deserunt accusantium ipsum similique praesentium cumque in magnam dolorum eligendi?</p>
+      <h1>AWARDS & CERTIFICATIONS</h1>
+      <ul>
+        <li>
+          Hack 36 3rd prize winner
+        </li>
+        <li>
+          Mentor OpenCode'19
+        </li>
+      </ul>
     </div>
   )
 }
